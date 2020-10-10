@@ -1,13 +1,13 @@
 import React from 'react';
 import Profile from './task1/profile/Profile';
-import user from './task1/profile/user.json';
+import user from '../data/user.json';
 import Statistics from './task2/statistics/Statistics';
 import StatsRender from './task2/statsRender/StatsRender';
-import statisticalData from './task2/statistics/statistical-data.json';
+import statisticalData from '../data/statistical-data.json';
 import FriendList from './task3/friendList/FriendList';
-import friends from './task3/friendList/friends.json';
+import friends from '../data/friends.json';
 import TransactionHistory from './task4/transactionHistory/TransactionHistory';
-import transactions from './task4/transactionHistory/transactions.json';
+import transactions from '../data/transactions.json';
 
 export default function App() {
   return (
